@@ -7,12 +7,25 @@
 //
 
 #import "ItssAppDelegate.h"
+#import "ItssSection.h"
+#import "ItssSectionTableViewController.h"
 
 @implementation ItssAppDelegate
+NSMutableArray *sections;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UINavigationController *navigationController =
+    (UINavigationController *)self.window.rootViewController;
+	ItssSectionTableViewController *itssSectionTableViewController =
+    [[navigationController viewControllers] objectAtIndex:0];
+    
+    sections = [ItssSection initData];
+    
+	itssSectionTableViewController.itssSections = sections;
+    itssSectionTableViewController.isAuthenticated = NO;
+    
     return YES;
 }
 							

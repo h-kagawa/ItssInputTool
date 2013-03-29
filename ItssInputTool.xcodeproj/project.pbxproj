@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		292855A316E4C82E0023D85D /* ItssLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 292855A216E4C82E0023D85D /* ItssLoginViewController.m */; };
+		292855A816E4E2550023D85D /* CAS.m in Sources */ = {isa = PBXBuildFile; fileRef = 292855A716E4E2550023D85D /* CAS.m */; };
 		2942FBA116D3C4BB0011B822 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2942FBA016D3C4BB0011B822 /* UIKit.framework */; };
 		2942FBA316D3C4BB0011B822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2942FBA216D3C4BB0011B822 /* Foundation.framework */; };
 		2942FBA516D3C4BB0011B822 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2942FBA416D3C4BB0011B822 /* CoreGraphics.framework */; };
@@ -17,10 +19,19 @@
 		2942FBB516D3C4BB0011B822 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2942FBB416D3C4BB0011B822 /* Default@2x.png */; };
 		2942FBB716D3C4BB0011B822 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2942FBB616D3C4BB0011B822 /* Default-568h@2x.png */; };
 		2942FBBA16D3C4BB0011B822 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2942FBB816D3C4BB0011B822 /* MainStoryboard.storyboard */; };
-		2942FBBD16D3C4BB0011B822 /* ItssViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2942FBBC16D3C4BB0011B822 /* ItssViewController.m */; };
+		2942FBC516D3C5140011B822 /* ItssItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2942FBC416D3C5140011B822 /* ItssItemTableViewController.m */; };
+		2942FBC816D5148C0011B822 /* ItssItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2942FBC716D5148C0011B822 /* ItssItem.m */; };
+		2942FBCB16D514D50011B822 /* ItssSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2942FBCA16D514D50011B822 /* ItssSection.m */; };
+		2942FBD216D65A290011B822 /* ItssSectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2942FBD116D65A290011B822 /* ItssSectionTableViewController.m */; };
+		2942FBD516D7AD5C0011B822 /* ItssDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2942FBD416D7AD5C0011B822 /* ItssDetailTableViewController.m */; };
+		2942FBD816D88D9C0011B822 /* ItssAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2942FBD716D88D9C0011B822 /* ItssAnswer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		292855A116E4C82E0023D85D /* ItssLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItssLoginViewController.h; sourceTree = "<group>"; };
+		292855A216E4C82E0023D85D /* ItssLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItssLoginViewController.m; sourceTree = "<group>"; };
+		292855A616E4E2550023D85D /* CAS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAS.h; sourceTree = "<group>"; };
+		292855A716E4E2550023D85D /* CAS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAS.m; sourceTree = "<group>"; };
 		2942FB9D16D3C4BB0011B822 /* ItssInputTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItssInputTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2942FBA016D3C4BB0011B822 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2942FBA216D3C4BB0011B822 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,8 +46,18 @@
 		2942FBB416D3C4BB0011B822 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2942FBB616D3C4BB0011B822 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2942FBB916D3C4BB0011B822 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		2942FBBB16D3C4BB0011B822 /* ItssViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItssViewController.h; sourceTree = "<group>"; };
-		2942FBBC16D3C4BB0011B822 /* ItssViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItssViewController.m; sourceTree = "<group>"; };
+		2942FBC316D3C5140011B822 /* ItssItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItssItemTableViewController.h; path = ../ItssItemTableViewController.h; sourceTree = "<group>"; };
+		2942FBC416D3C5140011B822 /* ItssItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItssItemTableViewController.m; path = ../ItssItemTableViewController.m; sourceTree = "<group>"; };
+		2942FBC616D5148C0011B822 /* ItssItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItssItem.h; path = ItssInputTool/ItssItem.h; sourceTree = "<group>"; };
+		2942FBC716D5148C0011B822 /* ItssItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItssItem.m; path = ItssInputTool/ItssItem.m; sourceTree = "<group>"; };
+		2942FBC916D514D50011B822 /* ItssSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItssSection.h; sourceTree = "<group>"; };
+		2942FBCA16D514D50011B822 /* ItssSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItssSection.m; sourceTree = "<group>"; };
+		2942FBD016D65A290011B822 /* ItssSectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItssSectionTableViewController.h; sourceTree = "<group>"; };
+		2942FBD116D65A290011B822 /* ItssSectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItssSectionTableViewController.m; sourceTree = "<group>"; };
+		2942FBD316D7AD5C0011B822 /* ItssDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItssDetailTableViewController.h; sourceTree = "<group>"; };
+		2942FBD416D7AD5C0011B822 /* ItssDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItssDetailTableViewController.m; sourceTree = "<group>"; };
+		2942FBD616D88D9C0011B822 /* ItssAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItssAnswer.h; sourceTree = "<group>"; };
+		2942FBD716D88D9C0011B822 /* ItssAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItssAnswer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +74,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		292855A516E4E2190023D85D /* CenterA */ = {
+			isa = PBXGroup;
+			children = (
+				292855A616E4E2550023D85D /* CAS.h */,
+				292855A716E4E2550023D85D /* CAS.m */,
+			);
+			name = CenterA;
+			sourceTree = "<group>";
+		};
 		2942FB9416D3C4BB0011B822 = {
 			isa = PBXGroup;
 			children = (
+				292855A516E4E2190023D85D /* CenterA */,
+				2942FBCC16D514E20011B822 /* DataObjects */,
 				2942FBA616D3C4BB0011B822 /* ItssInputTool */,
 				2942FB9F16D3C4BB0011B822 /* Frameworks */,
 				2942FB9E16D3C4BB0011B822 /* Products */,
@@ -86,8 +118,14 @@
 				2942FBAF16D3C4BB0011B822 /* ItssAppDelegate.h */,
 				2942FBB016D3C4BB0011B822 /* ItssAppDelegate.m */,
 				2942FBB816D3C4BB0011B822 /* MainStoryboard.storyboard */,
-				2942FBBB16D3C4BB0011B822 /* ItssViewController.h */,
-				2942FBBC16D3C4BB0011B822 /* ItssViewController.m */,
+				292855A116E4C82E0023D85D /* ItssLoginViewController.h */,
+				292855A216E4C82E0023D85D /* ItssLoginViewController.m */,
+				2942FBD016D65A290011B822 /* ItssSectionTableViewController.h */,
+				2942FBD116D65A290011B822 /* ItssSectionTableViewController.m */,
+				2942FBC316D3C5140011B822 /* ItssItemTableViewController.h */,
+				2942FBC416D3C5140011B822 /* ItssItemTableViewController.m */,
+				2942FBD316D7AD5C0011B822 /* ItssDetailTableViewController.h */,
+				2942FBD416D7AD5C0011B822 /* ItssDetailTableViewController.m */,
 				2942FBA716D3C4BB0011B822 /* Supporting Files */,
 			);
 			path = ItssInputTool;
@@ -105,6 +143,19 @@
 				2942FBB616D3C4BB0011B822 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2942FBCC16D514E20011B822 /* DataObjects */ = {
+			isa = PBXGroup;
+			children = (
+				2942FBC916D514D50011B822 /* ItssSection.h */,
+				2942FBCA16D514D50011B822 /* ItssSection.m */,
+				2942FBC616D5148C0011B822 /* ItssItem.h */,
+				2942FBC716D5148C0011B822 /* ItssItem.m */,
+				2942FBD616D88D9C0011B822 /* ItssAnswer.h */,
+				2942FBD716D88D9C0011B822 /* ItssAnswer.m */,
+			);
+			name = DataObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +194,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
 			);
 			mainGroup = 2942FB9416D3C4BB0011B822;
 			productRefGroup = 2942FB9E16D3C4BB0011B822 /* Products */;
@@ -176,7 +228,14 @@
 			files = (
 				2942FBAD16D3C4BB0011B822 /* main.m in Sources */,
 				2942FBB116D3C4BB0011B822 /* ItssAppDelegate.m in Sources */,
-				2942FBBD16D3C4BB0011B822 /* ItssViewController.m in Sources */,
+				2942FBC516D3C5140011B822 /* ItssItemTableViewController.m in Sources */,
+				2942FBC816D5148C0011B822 /* ItssItem.m in Sources */,
+				2942FBCB16D514D50011B822 /* ItssSection.m in Sources */,
+				2942FBD216D65A290011B822 /* ItssSectionTableViewController.m in Sources */,
+				2942FBD516D7AD5C0011B822 /* ItssDetailTableViewController.m in Sources */,
+				2942FBD816D88D9C0011B822 /* ItssAnswer.m in Sources */,
+				292855A316E4C82E0023D85D /* ItssLoginViewController.m in Sources */,
+				292855A816E4E2550023D85D /* CAS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +358,7 @@
 				2942FBC216D3C4BB0011B822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
